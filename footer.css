@@ -1,0 +1,21 @@
+/* Mobile Footer */
+
+footer {
+    background-color: rgb(163, 71, 0);
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 0 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+
+    footer {
+        opacity: 85%;
+    }
+
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: Courier New, sans-serif;
+    margin: 0;
+    background: #f0f8ff;
+    color: #f5f5f5;
+
+    /* Full Screen Background image fixed on screen !!!*/
+    background: url(images/photo1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Main */
+
+.main {
+    text-align: center;
+    padding: 3em 0;
+    height: 70vh;
+}
+
+.main p {
+    font-size: 22px;
+}
+
+/*  Recipes */
+
+.recipe-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
+}
+
+.recipe p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+.recipe img {
+    width: 90%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    /*  Main    */
+    .main {
+        color: #fff;
+        width: 100%;
+        height: 65vh;
+        text-align: center;
+        margin-top: 5em;
+    }
+
+    main p {
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+
+    .welcome {
+        font-family: "Cal Sans", sans-serif;
+        font-style: normal;
+        vertical-align: middle;
+    }
+
+    .welcome p {
+        font-size: 32px;
+    }
+
+    /*      Recipes     */
+
+    .recipe-container {
+        /* display: flex;
+        flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        margin: 10em auto 5em auto;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.8); /* Μαύρο με 80% αδιαφάνεια */
+    }
+
+    .recipe {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .recipe p {
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .recipe img {
+        width: 50%;
+    }
+
+    .recipe ul {
+        /* width: 50%; /*Δημιουργεί πρόβλημα στο background image*/
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*  Main    */
+
+    .main {
+        height: 75vh;
+    }
+
+    /* Recipe   */
+
+    .recipe-container {
+        width: 60%;
+        margin: 7em auto 5em auto;
+    }
+
+}

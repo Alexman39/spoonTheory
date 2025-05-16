@@ -105,6 +105,8 @@ button {
 .contact-info td {
     border: 1px solid white;
     padding: 0.5em;
+    color: white;
+    text-decoration: none;
 }
 
 /* Remove outer borders */

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+
+    <!-- Title -->
+    <title>Spoon Theory</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a4df1a361f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header -->
+
+<header>
+    <h1 class="cal-sans-regular">
+        <a href="index.html"><img style="vertical-align:middle" src="icons\cutlery.png" width="48px"> Spoon Theory</a>
+        <i id="toggleButton" class="fa-solid fa-bars"></i>
+    </h1>
+    <nav id="nav" class="hidden">
+        <ul>
+
+            <li><a href="index.html">Αρχική</a></li>
+            <li><a href="page1.html">Παραδοσιακά Φαγητά</a></li>
+            <li><a href="page2.html">Γιορτές</a></li>
+
+            <li>
+                <span class="nolink navToggle">Αριθμός Υλικών <i class="fa-solid fa-angle-down"></i></span>
+                <ul class="dropdown hidden">
+                    <li><a href="page3.1.html">4 Υλικά</a></li>
+                    <li class="lastitem"><a href="page3.2.html">5 Υλικά</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <span class="nolink navToggle">Ειδική Διατροφή <i class="fa-solid fa-angle-down"></i></span>
+                <ul class="dropdown hidden">
+                    <li><a href="page4.1.html">Vegan</a></li>
+                    <li><a href="page4.2.html">Χωρίς Ζάχαρη</a></li>
+                    <li class="lastitem"><a href="page4.3.html">Νηστίσιμα</a></li>
+                </ul>
+            </li>
+
+            <li><a href="page5.html">Ξένες Κουζίνες</a></li>
+            <li><a href="page6.html">Σαλάτες</a></li>
+            <li><a href="contact.html">Επικοινωνία</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<!--    Contact Form    -->
+
+<div class="recipe-container">
+
+    <h1 id="contact-title">
+        If you have recipes that you'd like to see featured on SpoonTheory please let us know!
+    </h1>
+
+    <div class="contact">
+        <div class="contact-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example.com" />
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Type your message here..."></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+                <table>
+                    <tr>
+                        <td>
+                            Contact Information
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email
+                        </td>
+                        <td>
+                            spoontheory@gmail.com
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone Number
+                        </td>
+                        <td>
+                            +30 6912345678
+                        </td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+    <p>Copyright &copy;2025 | Spoon Theory | All Rights Reserved</p>
+    <p class="icon">
+        <a href="index.html"><img style="vertical-align: middle" src="icons/instagram.png" width="30px"></a>
+        <a href="index.html"><img style="vertical-align: middle" src="icons/phone-call.png" width="30px"></a>
+        <a href="mailto:Sp.theory@gmail.com"><img style="vertical-align: middle" src="icons/email.png" width="30px"></a>
+    </p>
+</footer>
+
+<!-- JavaScript -->
+
+<script src="index.js"></script>
+
+</body>
+</html>

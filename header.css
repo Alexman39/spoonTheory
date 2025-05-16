@@ -4,6 +4,7 @@ header, header a {
     background-color: rgb(163, 71, 0);
     color: white;
     text-decoration: none;
+    font-family: Sans-Serif, serif;
 }
 
 header h1 {

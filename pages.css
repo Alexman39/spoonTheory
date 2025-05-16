@@ -47,6 +47,82 @@ body {
     margin: auto;
 }
 
+/*  Contact Form    */
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+
+#contact-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.contact-form {
+    padding: 2em;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.contact button {
+    background-color: rgb(163, 71, 0);
+    border: none;
+    color: white;
+    font-family: 'Courier New', serif;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background-color: rgb(139, 63, 5);
+    color: white;
+    cursor: pointer;
+}
+
+.contact-info {
+    padding: 2em;
+}
+
+.contact-info table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.contact-info td {
+    border: 1px solid white;
+    padding: 0.5em;
+}
+
+/* Remove outer borders */
+.contact-info tr:first-child td {
+    border-top: none;
+}
+.contact-info tr:last-child td {
+    border-bottom: none;
+}
+.contact-info tr td:first-child {
+    border-left: none;
+}
+.contact-info tr td:last-child {
+    border-right: none;
+}
+
+
+
 @media screen and (min-width: 768px) {
 
     /*  Main    */
@@ -124,5 +200,54 @@ body {
         width: 60%;
         margin: 7em auto 5em auto;
     }
+
+    /*  Contact Form    */
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-form {
+        padding: 2em;
+        width: 50%;
+    }
+
+    input,
+    textarea,
+    button {
+        width: 100%;
+        padding: 1em;
+        margin: 0.5em 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    .contact button {
+        background-color: rgb(163, 71, 0);
+        border: none;
+        color: white;
+        font-family: 'Courier New', serif;
+    }
+
+
+    .contact-info {
+        padding: 2em;
+        width: 50%;
+    }
+
+    .contact-info table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .contact-info td {
+        border: 1px solid white;
+        padding: 1em;
+    }
+
 
 }
